@@ -1,5 +1,7 @@
 # iof0201-gulf-stream
 
+![](img/img.jpg)
+
 ## Objetivo
 
 Estudar as informações do texto ["Scientists Say Ocean Circulation Is Slowing. Here’s Why You Should Care"](https://insideclimatenews.org/news/07052018/atlantic-ocean-circulation-slowing-climate-change-heat-temperature-rainfall-fish-why-you-should-care) do portal _InsideClimate News_.
