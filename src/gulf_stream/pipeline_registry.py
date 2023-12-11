@@ -2,8 +2,8 @@
 from typing import Dict
 
 from kedro.pipeline import Pipeline, pipeline
-from kedro.pipeline import data_preparation
 
+import gulf_stream.pipelines.data_preparation.pipeline as data_preparation
 
 def register_pipelines() -> Dict[str, Pipeline]:
     """Register the project's pipelines.
