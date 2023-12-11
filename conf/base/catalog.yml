@@ -4,7 +4,28 @@
 # Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
 
 # partitioned parquet datasets
-ocean_data:
-  type: PartitionedDataset
+osd_profiles:
+  type: PartitionedDataSet
+  dataset: pickle.PickleDataSet
+  path: data/01_raw/osd_profiles
+  filename_suffix: .pkl
+  layer: raw
+
+osd_file_positions_input:
+  type: IncrementalDataSet
+  dataset: json.JSONDataSet
+  path: data/01_raw/osd_file_positions.json
+  layer: raw
+
+osd_file_positions_output:
+  type: IncrementalDataSet
+  dataset: json.JSONDataSet
+  path: data/01_raw/osd_file_positions.json
+  layer: raw
+
+ocean_station_data:
+  type: PartitionedDataSet
   dataset: pandas.ParquetDataSet
   path: data/02_intermediate/ocean_data
+  filename_suffix: .parquet
+  layer: intermediate
