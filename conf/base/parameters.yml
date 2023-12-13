@@ -1,5 +1,9 @@
 binary_osd_path: data/01_raw/ocldb1699703820.2684.OSD
+binary_osd_path: data/01_raw/ocldb1702330859.2758.OSD
+binary_osd_path: data/01_raw/ocldb1702336585.15091.OSD
 
-year:
+year: 1750
+
+year_range:
   min: 1750
   max: 1800

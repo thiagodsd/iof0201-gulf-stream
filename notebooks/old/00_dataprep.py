@@ -115,10 +115,10 @@ for i in range(2, 100):
 df.to_csv('../../../Dropbox-heavy-stuff/csv/FINAL.csv')
 """
 
-import pandas as pd
-import numpy as np
 import pickle as pkl
 
+import numpy as np
+import pandas as pd
 from IPython.display import IFrame, display
 
 FULL = 185101 + 1

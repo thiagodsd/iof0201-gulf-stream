@@ -4,6 +4,12 @@
 # Link: https://kedro.readthedocs.io/en/stable/data/data_catalog.html
 
 # partitioned parquet datasets
+# osd_profiles:
+#   type: PartitionedDataSet
+#   dataset: pickle.PickleDataSet
+#   path: data/01_raw/osd_profiles
+#   filename_suffix: .pkl
+#   layer: raw
 osd_profiles:
   type: PartitionedDataSet
   dataset: pickle.PickleDataSet
