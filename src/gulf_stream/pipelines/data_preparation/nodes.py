@@ -141,7 +141,6 @@ def lazy_osd_extraction(binary_osd_path, years, file_positions) -> dict:
 
     print(f"Extracted {len(profiles)} profiles from {binary_osd_path} between {time_key} and {years['max']}")
 
-    # using multiprocessing to concatenate data with lazy_osd_to_dataframe
     pool = mp.Pool(np.min([mp.cpu_count()-1, len(profiles)]))
     result = pool.map(lazy_osd_to_dataframe, results[time_key])
     result = pd.concat(result, ignore_index=True, axis=0)
