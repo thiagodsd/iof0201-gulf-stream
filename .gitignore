@@ -1,0 +1,20 @@
+data/01_raw/*.csv
+data/01_raw/*.OSD
+data/01_raw/*.json/**/*
+data/02_intermediate/ocean_data/*.parquet
+data/08_reporting/*.png
+data/08_reporting/equations/*.pdf
+data/08_reporting/equations/*.tex
+data/08_reporting/equations/*.aux
+data/08_reporting/equations/*.log
+data/08_reporting/equations/*.png
+*.pyc
+logs/info.log
+.telemetry
+conf/local/credentials.yml
+data/IOF_201_SEMINARIO_ APRESENTACAO_PEDRO_NAKAMURA_THIAGO_DUARTE.pdf
+data/01_raw/ECCO_L4_OCEAN_VEL_05DEG_MONTHLY_V4R4.citation.txt
+data/01_raw/OCEAN_VELOCITY_mon_mean_1992-01_ECCO_V4r4_latlon_0p50deg.nc
+data/01_raw/osd_profiles/old_measurements.zip
+docs/artigo/artigo.log
+logs/errors.log
