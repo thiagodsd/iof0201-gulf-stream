@@ -1,4 +1,4 @@
-# iof0201-gulf-stream
+# Gulf Stream (IOF0201)
 
 ```sh
 podaac-data-downloader -c ECCO_L4_OCEAN_VEL_05DEG_MONTHLY_V4R4 -d ./data --start-date 1992-01-01T00:00:00Z --end-date 1992-01-08T00:00:00Z -b="-80,10,10,60"
